@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  background-color: black;
+  color: #555;
+  margin: 0;
+    
+  font-family: 'Montserrat', sans-serif;
+}
+
+.post-container:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F6A623;
+}
+
+h1 h2 h3 h4 {
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}
+
+#header a:hover {
+  background-color: #1abc9c;
+  color: #222;
+  height: 150px;
+  line-height: 150px;
+  text-decoration: none;
+  border-radius: 25%;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header-title {
+  display: block;
+  float: left;
+
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#header-nav li {
+  display: inline;
+  float: left;
+  font-size: 20px
+  font-weight: bold;
+  padding: 15px 0 0 40px;
+  margin-top: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.post, .acerca_de {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 140px 0;
+}
+
+.post-autor img span {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 16px;
+    border-radius: 50%
+}
+
+.fecha-post {
+    color: #D2D2D2;
+    
+    font-size: 14px;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#pie_de_pagina {
+    background-color: #2f2f2f;
+    padding: 50px 0;
+}
+
+#pie_de_pagina h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#pie_de_pagina p {
+    color: white;
+}
+
+.columna {
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.acerca_de {
+    text-align: center;
+}
+
+.acerca_de_autor img {
+    border-radius: 50%;
+}
+
+.twitch {
+  font-size: 100px;
+  margin: 10px, 0, 0, 30px;
+  text-align: center;
+}
+
+#hecleo {
+  width: 150px;
+  height: 100px;
+}
